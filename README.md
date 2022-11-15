@@ -1,8 +1,7 @@
-# Home : A repository to store documentation
+# Learn Git Home
 
-A template repository for documentation
+## Pages
+- [Old Documentation](pages/OldDocumentation.md)
 
-[A link to page one](pages/page-one.md)
 
-## A link to a diagram 
-![A link to a diagram](assets/slide2.png)
+
