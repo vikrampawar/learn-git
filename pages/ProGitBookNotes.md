@@ -87,6 +87,11 @@ The `tracked` files are the files that Git knows about, the rest are `untracked`
 
 ![LifeCycleOfFiles](../assets/diagrams/LifeCycleOfFiles.png)
 
+## Checking status
+
+`git status`
+
+`echo data > README`
 
 
 
