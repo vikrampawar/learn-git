@@ -93,9 +93,13 @@ See the current status of files `git status`
 
 Create a file called `README` with some data in it `echo data > README`.
 
+## Tracking new files
+
 To track this new files `git add README`
 
 ## Staging modified files
+
+Even for staging modified files, we use the saem `git add A`
 
 
  
