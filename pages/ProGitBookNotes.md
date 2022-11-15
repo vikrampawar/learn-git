@@ -36,10 +36,23 @@ Safely stored in the git repository
 Some commands can only be run on command line.
 They are installed on every system that has git.
 
+## First time git setup
+
+### See git config and the source of that config
+
+`git config --list --show-origin`
 
 
+### Setup user name and email
 
- 
+`git config --global user.name "Dharam Veer"`
+
+`git config --global user.email dharam@kuru.com`
+
+### Setup the editor
+
+`git config --global core.editor emacs`
+
 
  
 >[Common Home](../README.md)
