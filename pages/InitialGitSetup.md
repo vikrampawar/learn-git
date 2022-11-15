@@ -6,7 +6,7 @@ This is the setup from the Udacity course [https://github.com/AnthonyMedina/Udac
 
 Get colours from here [https://gist.github.com/vratiu/9780109](https://gist.github.com/vratiu/9780109)
 
-## Git Setup
+vi## Git Setup
 
 This setup is probably from the Udacity course on Git.
 

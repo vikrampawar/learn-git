@@ -31,8 +31,12 @@ Safely stored in the git repository
 ![Working Directory, Staging area, and Git directory](../assets/diagrams/WorkingTreeStagingAreaGitDirectory.png)
 
 
+## Command line 
 
-## Sub topic
+Some commands can only be run on command line.
+They are installed on every system that has git.
+
+
 
 
  
