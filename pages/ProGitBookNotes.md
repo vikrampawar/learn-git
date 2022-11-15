@@ -85,6 +85,7 @@ They are installed on every system that has git.
 
 The `tracked` files are the files that Git knows about, the rest are `untracked` files.
 
+![LifeCycleOfFiles](../assets/diagrams/LifeCycleOfFiles.png)
 
 
 
