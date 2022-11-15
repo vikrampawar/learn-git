@@ -1,7 +1,7 @@
 # Learn Git Home
 
 ## Pages
-- [ProGit Notes](pages/ProGitBookNots.md)
+- [ProGit Notes](pages/ProGitBookNotes.md)
 - [Old Documentation](pages/OldDocumentation.md)
 
 
