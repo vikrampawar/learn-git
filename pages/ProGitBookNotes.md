@@ -89,10 +89,13 @@ The `tracked` files are the files that Git knows about, the rest are `untracked`
 
 ## Checking status
 
-`git status`
+See the current status of files `git status`
 
-`echo data > README`
+Create a file called `README` with some data in it `echo data > README`.
 
+To track this new files `git add README`
+
+## Staging modified files
 
 
  
