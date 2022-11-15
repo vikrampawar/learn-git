@@ -101,6 +101,22 @@ To track this new files `git add README`
 
 Even for staging modified files, we use the saem `git add A`
 
+## Concise git status - Short status
+
+Get concise short status using `git status -s`.
+
+`??` untracked files
+
+`A` staged files
+
+`M` modified files
+
+First column -> Staging Area
+
+Second colum -> Working tree
+
+ 
+
 
  
 >[Common Home](../README.md)
