@@ -1,6 +1,6 @@
 >[Common Home](../README.md)
  
-# ProGit Book Notes
+# ProGit Book Notes Introduction
  
 ## Snapshots not differences
 
@@ -52,6 +52,41 @@ They are installed on every system that has git.
 ### Setup the editor
 
 `git config --global core.editor emacs`
+
+### Default branch name is **main**
+
+ `git config --global init.defaultBranch main`
+
+### Getting help
+
+`get help <verb>`
+
+`git <verb> --help`
+
+### Git help IRC channels
+
+ `#git, #github, or #gitlab`
+
+### Git concise help
+
+`git add -h`
+
+# Git Basics
+
+## Create a new repository
+
+`git init`
+
+## Clone a repository
+
+`git clone <repo location>`
+
+## Recording changes
+
+The `tracked` files are the files that Git knows about, the rest are `untracked` files.
+
+
+
 
 
  
