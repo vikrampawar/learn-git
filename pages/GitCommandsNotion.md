@@ -10,7 +10,7 @@
   - [Show : the changes made in a particular commit](#show--the-changes-made-in-a-particular-commit)
   - [Diff : See the changes made in a particular commit](#diff--see-the-changes-made-in-a-particular-commit)
   - [Show global git configuration](#show-global-git-configuration)
-    - [Update Configuration](#update-configuration)
+    - [Update Configuration set auto crlf](#update-configuration-set-auto-crlf)
     - [Rename a folder](#rename-a-folder)
   - [Miscellaneous](#miscellaneous)
     - [Mac credentials setup](#mac-credentials-setup)
@@ -87,7 +87,7 @@ git stash apply stash@{1}  // the last but one stash
 
 `git config --list  # show all config (~/.gitconfig)`
 
-### Update Configuration
+### Update Configuration set auto crlf 
 
 ```bash
 git config --global -e    (opens up editor)

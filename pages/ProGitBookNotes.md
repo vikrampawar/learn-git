@@ -1,6 +1,8 @@
 >[Common Home](../README.md)
  
 # ProGit Book Notes Introduction
+
+[Book link](https://play.google.com/books/reader?id=imP-LwAAAEAJ&pg)
  
 ## Snapshots not differences
 
@@ -115,7 +117,50 @@ First column -> Staging Area
 
 Second colum -> Working tree
 
- 
+## Ignoring files
+
+Glob patterns are simplified regular expressions that shells use.
+
+`*`         : zero or more characters.
+
+`[abc]`     : Matches any character inside the brackets
+
+`?`         : Matches a single character
+
+`[0-9]`     : Matches Any character between zero and 9
+
+`a/**/z`    : Matches nested directories.
+
+Some examples
+
+```bash
+.gitignore 
+# ignore all .a files
+*.a
+
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+
+# ignore all files in any directory named build
+build/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
+
+```
+
+## Viewing staged and unstaged changes
+
+
+
+# Branching
 
 
  
