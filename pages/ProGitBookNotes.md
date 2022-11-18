@@ -101,7 +101,7 @@ To track this new files `git add README`
 
 ## Staging modified files
 
-Even for staging modified files, we use the saem `git add A`
+Even for staging modified files, we use the same `git add A`
 
 ## Concise git status - Short status
 
@@ -158,6 +158,19 @@ doc/**/*.pdf
 
 ## Viewing staged and unstaged changes
 
+We can use `git diff` to see either 
+1. What has been committed or
+2. What has been staged and ready to be committed, .
+
+You can see what has been committed by just `git diff`.
+
+And, what has been staged and ready to be committed, by doing the following `git diff --staged` or `git diff --cached` commands.
+
+## Commiting your changes
+
+You can then commit your changes by using `git commit`.
+
+To save information about what changes you have made to your repository, you can use the command `git commit -v`.
 
 
 # Branching
