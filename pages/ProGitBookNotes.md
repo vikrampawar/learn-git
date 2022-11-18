@@ -170,7 +170,7 @@ And, what has been staged and ready to be committed, by doing the following `git
 
 You can then commit your changes by using `git commit`.
 
-To save information about what changes you have made to your repository, you can use the command `git commit -v`.
+To save information about what changes you have made to your repository, you can use  `git commit -v`.
 
 
 # Branching
