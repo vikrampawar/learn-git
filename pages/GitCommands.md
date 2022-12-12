@@ -43,7 +43,15 @@ git log --pretty=oneline --abbrev-commit
 git log --graph --oneline --all
 ```
 
-## Sub topic
+
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+find . -type d -name .git -exec sh -c "cd \"{}\"/../ && pwd && git status" \;
+
+
+
+
+
+
  
 
  
