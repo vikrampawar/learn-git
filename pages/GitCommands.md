@@ -44,8 +44,23 @@ git log --graph --oneline --all
 ```
 
 
-git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
+
+```sh
+
 find . -type d -name .git -exec sh -c "cd \"{}\"/../ && pwd && git status" \;
+
+
+# set origin
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
+# delete the current url setting
+git remote set-url  --delete origin  https://github.com/rumq/Kafka-Streams-with-Spring-Cloud-Stream.git
+# add the new url setting
+git remote set-url  --add origin  git@github.com:rumq/Kafka-Streams-with-Spring-Cloud-Stream.git
+
+
+```
 
 
 
