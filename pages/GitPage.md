@@ -10,7 +10,6 @@
   - [Git log](#git-log)
   - [Stash](#stash)
   - [Configuration](#configuration)
-- [Git Cheatsheet](#git-cheatsheet)
 - [Howtos](#howtos)
   - [How to do the intial commit](#how-to-do-the-intial-commit)
   - [How to create the same repo in both Github and Bitbucket.](#how-to-create-the-same-repo-in-both-github-and-bitbucket)
@@ -37,7 +36,7 @@
 git show
 # Show : the changes made in a particular commit
 git show 7d3d630cdd5d4f7961a0a5cf8c6098828b7150d8
-# Shows modified files, and and only directories of untracked files.
+# Show status
 git status
 # Create current branch on remote
 git push --set-upstream origin <branch_name>`
@@ -57,6 +56,9 @@ git diff COMMIT_HASH~ COMMT_HASH
 
 # rename a file
 git mv A B
+
+# untrack a file
+git rm --cached <file/pattern>
 
 
 ```
@@ -112,22 +114,6 @@ git config --global core.autocrlf true
 
 ```
 
-# Git Cheatsheet
-
-See also [Git Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
-
-| Command                                   | Description                        | Options                                                                                                                                                                                                                                                                                             |
-| ----------------------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `git log `                                | Show log                           | `--stat` with statistics                                                                                                                                                                                                                                                                            |
-| `git version`                             | Show verion of git                 |
-| `git config`                              | Show and update config             | `--global color.ui auto` <br></br> `--global http.sslVerify false` <br> `--global core.editor <editor>` <br> `--global push.defaul upstream` Pushes to upstream udacity suggestion<br> '-- global merge.conflictstyle diff3`udacity suggestion <br>`--global core.excludesfile ~/.gitignore_global` |
-| `git branch <branch>`                     | Create a branch                    |
-| `git checkout <branch>`                   | Switch to a branch                 | `-- .` delete untracked files                                                                                                                                                                                                                                                                       |
-| `git symbolic-ref --short HEAD`           | Get the name of current branch     |
-| `git push --set-upstream origin <branch>` | Push local branch to remote        |
-| `git clean`                               | delete untracked files             | `-n` check which files <br> `-f` to force delete                                                                                                                                                                                                                                                    |
-| `git log -p filename`                     | generate patches of each log entry |
-| `git reset HEAD~`                         | undo last commit                   |
 
 # Howtos
 
