@@ -62,6 +62,17 @@ git remote set-url  --add origin  git@github.com:rumq/Kafka-Streams-with-Spring-
 
 ```
 
+```sh
+# use git instead of https
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
+git remote -v
+git remote set-url origin git@github.com:rumq/designpatterns.git
+git st
+
+
+
+```
 
 
 
