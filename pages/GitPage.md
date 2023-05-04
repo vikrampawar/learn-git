@@ -216,4 +216,13 @@ git remote set-url  --add origin  git@github.com:rumq/Kafka-Streams-with-Spring-
 
 ```
 
+```sh
+
+cd ~/git/learn-git
+git st
+## add, commit and push in single command
+git add .; git commit -m "update"; git push
+
+```
+
 > [Common Home](../README.md)
